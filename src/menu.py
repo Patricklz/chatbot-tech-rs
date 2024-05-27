@@ -1,9 +1,7 @@
-# src/menu.py
-
 menus = {
     "1": {
         "title": "Solicitar suporte",
-        "message": "Entendi! Vou encontrar a melhor opção para você, mas primeiro me diga que tipo de orientação deseja receber?",
+        "message": "Entendi! Vou encontrar a melhor opção para você. Qual o CEP e número do local onde o serviço será feito?",
         "submenus": {
             "1": {
                 "title": "Orientações de saúde",
@@ -30,7 +28,7 @@ menus = {
                     "2": {"title": "Elétrica", "message": "Serviço elétrico solicitado."},
                     "3": {"title": "Limpeza", "message": "Serviço de limpeza solicitado."},
                     "4": {"title": "Pintura", "message": "Serviço de pintura solicitado."},
-                    "5": {"title": "Móveis e Marcenaria", "message": "Entendi! Aguarde um pouquinho que eu vou pesquisar como posso te ajudar. \n\n Tenho uma boa notícia! Encontrei alguém que pode te ajudar. Já passei o seu telefone e a empresa XXXX vai entrar em contato com você. Se você preferir, pode entrar em contato pelo telefone XXXXXX"},
+                    "5": {"title": "Móveis e Marcenaria", "message": "Entendi! Aguarde um pouquinho que eu vou pesquisar como posso te ajudar. \n\n Tenho uma boa notícia! Encontrei alguém que pode te ajudar. Já passei o seu telefone e a empresa XXXX vai entrar em contato com você. Se você preferir, pode entrar em contato pelo telefone XXXXXX \n\n\n Essa jornada é um teste. Qualquer informação digitada irá retornar para o começo. \n\n Para conferir a jornada completa, siga os passos: \n1- Solicitar suporte \n> 3- Reparos na casa \n> 5- Móveis e marcenaria"},
                     "6": {"title": "Retirada de entulho", "message": "Serviço de retirada de entulho solicitado."},
                     "7": {"title": "Recuperação de eletrodomésticos", "message": "Serviço de recuperação de eletrodomésticos solicitado."},
                     "8": {
